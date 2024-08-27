@@ -2,7 +2,8 @@ NAME = libcpp.a
 
 SRCS = \
        Stopwatch.cpp \
-       Timespec.cpp
+       Timespec.cpp \
+       Utility.cpp \
 
 OBJS = $(SRCS:.cpp=.o)
 CXX = clang++
